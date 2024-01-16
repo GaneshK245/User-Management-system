@@ -101,10 +101,10 @@ export class UserUpsertComponent {
       this.ds.editUserDetails(this.newEndPoint, this.userObj).subscribe((resp) => {
       });
       this.router.navigate(['user-list']);
-
     }
   }
 }
+
 export interface user {
   firstName: string;
   lastName: string;

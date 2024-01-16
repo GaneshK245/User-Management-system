@@ -104,7 +104,6 @@ export class UserUpsertComponent {
     }
   }
 }
-
 export interface user {
   firstName: string;
   lastName: string;
